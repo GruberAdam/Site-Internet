@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    font-family: sans-serif;
+}
+.form-container{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+h1{
+    text-align: center;
+}
+form{
+    border: solid black;
+    margin: auto;
+    width: 300px;
+    padding: 1em;
+    border-radius: 1em;
+}
+form div + div{
+    margin-top: 1em;
+}
+label{
+    font-size: 20px;
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+input:not(#submit-button){
+    width: 100px;
+    height: 20px;
+
+}
+select:not(#submit-button){
+    width: 100px;
+    height: 20px;
+}
+#submit-button{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 125px;
+}
+form input{
+    text-align: center;
+}
+

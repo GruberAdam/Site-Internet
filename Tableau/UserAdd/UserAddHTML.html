@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../TableauCSS.css" type="text/css" rel="stylesheet">
+    <link href="UserAdd.css" type="text/css" rel="stylesheet">
+    <script src="DBA/jquery-3.4.1.min.js"></script>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+<div id="main">
+    <input type="button" onclick="openForm()" value="Add a user">
+    <table id="user-table">
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Classe</th>
+            <th>Rôle</th>
+            <th>Maladie</th>
+            <th>Abonnement</th>
+            <th>Nationalité</th>
+        </tr>
+    </table>
+</div>
+
+<div class="form-container" id="myForm">
+    <h1>Add a user</h1>
+    <form method="post" class="ajax" action="DBA/UserAddData.php">
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        <div>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div>
+            <label for="classe">Classe</label>
+            <select name="classe" size="1" id="classe" required>
+                <option>SI-C1b</option>
+                <option>SI-MI2b</option>
+                <option>SI-C2b</option>
+                <option>SI-MI2b</option>
+            </select>
+        </div>
+        <div>
+            <label for="role">rôle</label>
+            <select name="role" size="1" id="role" required>
+                <option>Aucun</option>
+                <option>Enseignant</option>
+            </select>
+        </div>
+        <div>
+            <label for="maladie">Maladie</label>
+            <input type="text" id="maladie" name="maladie" required>
+        </div>
+        <div>
+            <label for="abonnement">Abonnement</label>
+            <select name="abonnement" size="1" id="abonnement" required>
+                <option>AG</option>
+                <option>Aucun</option>
+            </select>
+        </div>
+        <div>
+            <label for="nationalite">Nationalité</label>
+            <select name="nationalite" size="1" id="nationalite" required>
+                <option>Suisse</option>
+                <option>Autre</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" id="submit-button">
+        </div>
+    </form>
+</div>
+<div id="results">
+    <!-- All data will display here  -->
+</div>
+
+</body>
+<script src="UserAdd.js"></script>
+
+</html>
