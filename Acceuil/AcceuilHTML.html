@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="AcceuilCSS.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="hamburger-button">
+    <div id="left-container-menu" onclick="openNav(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="#">Options</a>
+        <a href="../../Relations%20touts%20les%20sites%20web/Tableau/TableauHTML.html">Participants</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
+
+
+
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+    <div id="logo-cpnv">
+        <img src="logocpnv.jpg" alt ="LogoDuCpnv">
+    </div>
+    <h1>Direction Allemgane</h1>
+    <div id="trait-d'arial">
+        <span>Retour: <a>Login</a>/<a>Acceuil</a></span>
+    </div>
+    <form>
+        <input id="searchBar" type="text" placeholder="Search.." name="search">
+        <label for="searchBar">Participants</label>
+    </form>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Adresse E-mail</th>
+        </tr>
+        <tr>
+            <td>Gruber</td>
+            <td>Adam</td>
+            <td>adam.gruber@cpnv.ch</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+</div>
+    <footer class='footer'>
+        <div id="footer-langues">
+            <span>FR</span>
+            <span>EN</span>
+            <span>GE</span>
+        </div>
+        <div id="footer-email">
+            <span>adam.gruber@cpnv.ch</span>
+        </div>
+        <div id="footer-tel">
+            078 683 15 95
+        </div>
+    </footer>
+
+
+</body>
+    <script src="AcceuilJavaScript.js"></script>
+</html>

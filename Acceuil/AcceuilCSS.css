@@ -1,0 +1,161 @@
+/* The side navigation menu */
+html, body{
+    height: 100%;
+    font-family: sans-serif;
+}
+#hamburger-button{
+    position: fixed;
+}
+.bar1, .bar2, .bar3 {
+    position: relative;
+    z-index: 2;
+    width: 35px;
+    height: 5px;
+    background-color: #000000;
+    margin: 6px 0;
+    transition: 1s;
+}
+
+.change .bar1 {
+    transform: rotate(-360deg);
+}
+.change .bar2 {
+    transform: rotate(360deg);
+}
+
+.change .bar3 {
+    transform: rotate(-360deg);
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #c2c2c2; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    min-height: 100%;
+    margin: auto 120px;
+    z-index: 0;
+    padding: 20px;
+}
+#logo-cpnv{
+    height: 75px;
+}
+#main img {
+    float: right;
+    width: 200px;
+}
+#main h1 {
+    text-align: center;
+    font-size: 100px;
+}
+#main #trait-d\'arial{
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 15px;
+}
+
+#main form {
+    padding-top: 20px;
+    padding-left: 0;
+}
+#main form input[type = text]{
+    width: 400px;
+    height: 20px;
+}
+
+#main form label[for = searchBar]{
+    font-size: 40px;
+    display: inline-block;
+    width: 1000px;
+    text-align: right;
+}
+#main table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+#main table td{
+    text-align: left;
+    border: solid black 1px;
+    padding: 8px;
+    background: #dbdbdb;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+
+}
+#main table th{
+    text-align: left;
+    border: solid black 1px;
+    padding: 8px;
+    font-size: 25px;
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-weight: 100;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.footer{
+    height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffebdc;
+    color: #000000;
+    text-align: center;
+}
+#footer-langues{
+    vertical-align: center;
+    text-align: left;
+    display: inline-block;
+    width: 33%;
+    margin-top: 10px;
+}
+#footer-email{
+
+    display: inline-block;
+    width: 33%;
+    text-align: center  ;
+}
+#footer-tel{
+    width: 32%;
+    display: inline-block;
+    text-align: right;
+}
