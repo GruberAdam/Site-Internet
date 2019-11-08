@@ -15,6 +15,7 @@ function addRowsOnload() {
     ourRequest.send();
 
 }
+
 //Add row in html
 function addRowsOnHTMLOnload(data) {
     var numberOfRows = data.length;
@@ -58,7 +59,7 @@ function addRowsOnHTMLOnload(data) {
     }
 }
 
-
+//Send data to php server
 $('form.ajax').on('submit', function () {
     event.preventDefault();
     var that = $(this),
@@ -85,8 +86,14 @@ $('form.ajax').on('submit', function () {
     })
 });
 
+//Open the form and closes it if click again
 function openForm() {
-    document.getElementById("myForm").style.display = "block";
+    form = document.getElementById("myForm");
+    if (form.style.display == "block") {
+        form.style.display = "none";
+    } else {
+        form.style.display = "block";
+    }
 }
 
 //Get the data from json file
