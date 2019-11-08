@@ -1,3 +1,63 @@
+function addRowsOnload() {
+    console.log("load");
+
+    var ourRequest = new XMLHttpRequest();
+    ourRequest.open('GET', 'DBA/userData.json', true);
+    ourRequest.onload = function () {
+        if (ourRequest.responseText == "") {
+        } else {
+            console.log("something");
+            var ourData = JSON.parse(ourRequest.responseText);
+            addRowsOnHTMLOnload(ourData);
+        }
+    };
+    ourRequest.send();
+
+}
+
+function addRowsOnHTMLOnload(data) {
+    var numberOfRows = data.length;
+    console.log(numberOfRows);
+
+    for (var i = 0; i < numberOfRows; i++) {
+
+
+        // Get a reference to the table
+        var tableRef = document.getElementById('user-table');
+
+        // Insert a row at the end of the table
+        var newRow = tableRef.insertRow(-1);
+
+        // Insert a cell in the row at index 0
+        var newCell = newRow.insertCell(0);
+        var newCell2 = newRow.insertCell(0);
+        var newCell3 = newRow.insertCell(0);
+        var newCell4 = newRow.insertCell(0);
+        var newCell5 = newRow.insertCell(0);
+        var newCell6 = newRow.insertCell(0);
+        var newCell7 = newRow.insertCell(0);
+
+        // Append a text node to the cell
+
+        var newText = document.createTextNode(data[i].nationalite);
+        var newText2 = document.createTextNode(data[i].abonnement);
+        var newText3 = document.createTextNode(data[i].maladie);
+        var newText4 = document.createTextNode(data[i].role);
+        var newText5 = document.createTextNode(data[i].classe);
+        var newText6 = document.createTextNode(data[i].prenom);
+        var newText7 = document.createTextNode(data[i].nom);
+
+        newCell.appendChild(newText);
+        newCell2.appendChild(newText2);
+        newCell3.appendChild(newText3);
+        newCell4.appendChild(newText4);
+        newCell5.appendChild(newText5);
+        newCell6.appendChild(newText6);
+        newCell7.appendChild(newText7);
+    }
+}
+
+
 $('form.ajax').on('submit', function () {
     event.preventDefault();
     var that = $(this),
@@ -42,38 +102,41 @@ function httpRequest() {
 }
 
 function renderHTML(data) {
+    var numberOfRows = data.length;
+    console.log("number of Rows value : " + numberOfRows)
+    for (var i = numberOfRows - 1; i < numberOfRows; i++) {
+        console.log("value of i : " + i);
+        // Get a reference to the table
+        var tableRef = document.getElementById('user-table');
 
-    console.log(data);
-    // Get a reference to the table
-    var tableRef = document.getElementById('user-table');
+        // Insert a row at the end of the table
+        var newRow = tableRef.insertRow(-1);
 
-    // Insert a row at the end of the table
-    var newRow = tableRef.insertRow(-1);
+        // Insert a cell in the row at index 0
+        var newCell = newRow.insertCell(0);
+        var newCell2 = newRow.insertCell(0);
+        var newCell3 = newRow.insertCell(0);
+        var newCell4 = newRow.insertCell(0);
+        var newCell5 = newRow.insertCell(0);
+        var newCell6 = newRow.insertCell(0);
+        var newCell7 = newRow.insertCell(0);
 
-    // Insert a cell in the row at index 0
-    var newCell = newRow.insertCell(0);
-    var newCell2 = newRow.insertCell(0);
-    var newCell3 = newRow.insertCell(0);
-    var newCell4 = newRow.insertCell(0);
-    var newCell5 = newRow.insertCell(0);
-    var newCell6 = newRow.insertCell(0);
-    var newCell7 = newRow.insertCell(0);
+        // Append a text node to the cell
 
-    // Append a text node to the cell
+        var newText = document.createTextNode(data[i].nationalite);
+        var newText2 = document.createTextNode(data[i].abonnement);
+        var newText3 = document.createTextNode(data[i].maladie);
+        var newText4 = document.createTextNode(data[i].role);
+        var newText5 = document.createTextNode(data[i].classe);
+        var newText6 = document.createTextNode(data[i].prenom);
+        var newText7 = document.createTextNode(data[i].nom);
 
-    var newText = document.createTextNode(data[0].nationalite);
-    var newText2 = document.createTextNode(data[0].abonnement);
-    var newText3 = document.createTextNode(data[0].maladie);
-    var newText4 = document.createTextNode(data[0].role);
-    var newText5 = document.createTextNode(data[0].classe);
-    var newText6 = document.createTextNode(data[0].prenom);
-    var newText7 = document.createTextNode(data[0].nom);
-
-    newCell.appendChild(newText);
-    newCell2.appendChild(newText2);
-    newCell3.appendChild(newText3);
-    newCell4.appendChild(newText4);
-    newCell5.appendChild(newText5);
-    newCell6.appendChild(newText6);
-    newCell7.appendChild(newText7);
+        newCell.appendChild(newText);
+        newCell2.appendChild(newText2);
+        newCell3.appendChild(newText3);
+        newCell4.appendChild(newText4);
+        newCell5.appendChild(newText5);
+        newCell6.appendChild(newText6);
+        newCell7.appendChild(newText7);
+    }
 }
