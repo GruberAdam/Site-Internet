@@ -48,16 +48,16 @@
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Tableau\UserAdd\DBA" />
-      <recent name="C:\Users\adam.gruber\Desktop\Toutes les pages WEB\Tableau\UserAdd\DBA" />
-      <recent name="C:\Users\adam.gruber\Desktop\Toutes les pages WEB\Tableau\UserAdd" />
-      <recent name="C:\Users\Akame\Desktop\Tableau" />
-      <recent name="C:\Users\Akame\Desktop\Tableau\UserAdd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\adam.gruber\Desktop\Toutes les pages WEB\Tableau\UserAdd" />
       <recent name="C:\Users\Akame\Desktop\Tableau\UserAdd" />
+      <recent name="C:\Users\Akame\Desktop\Tableau" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Site-Internet\Tableau" />
+      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Tableau\UserAdd\DBA" />
+      <recent name="C:\Users\adam.gruber\Desktop\Toutes les pages WEB\Tableau\UserAdd\DBA" />
+      <recent name="C:\Users\adam.gruber\Desktop\Toutes les pages WEB\Tableau\UserAdd" />
       <recent name="C:\Users\Akame\Desktop\Tableau" />
     </key>
   </component>
@@ -104,7 +104,7 @@
       <workItem from="1573112544996" duration="9804000" />
       <workItem from="1573122852838" duration="12333000" />
       <workItem from="1573148419762" duration="13071000" />
-      <workItem from="1573211811061" duration="1918000" />
+      <workItem from="1573211811061" duration="4487000" />
     </task>
     <servers />
   </component>

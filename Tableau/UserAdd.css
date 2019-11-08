@@ -1,8 +1,9 @@
-html,body{
+html, body {
     height: 100%;
     font-family: sans-serif;
 }
-.form-container{
+
+.form-container {
     display: none;
     position: fixed;
     bottom: 0;
@@ -10,41 +11,64 @@ html,body{
     border: 3px solid #f1f1f1;
     z-index: 9;
 }
-h1{
+
+h1 {
     text-align: center;
 }
-form{
+
+form {
     border: solid black;
     margin: auto;
     width: 300px;
     padding: 1em;
     border-radius: 1em;
 }
-form div + div{
+
+form div + div {
     margin-top: 1em;
 }
-label{
+
+label {
     font-size: 20px;
     display: inline-block;
     width: 120px;
     text-align: right;
 }
-input:not(#submit-button){
+
+input:not(#submit-button) {
     width: 100px;
     height: 20px;
 
 }
-select:not(#submit-button){
+
+select:not(#submit-button) {
     width: 100px;
     height: 20px;
 }
-#submit-button{
+
+#submit-button {
     padding: 8px;
     border: none;
     border-radius: 8px;
     margin-left: 125px;
 }
-form input{
+
+form input {
     text-align: center;
+}
+
+#add-delete-button {
+    display: block;
+    width: 100em;
+    text-align: right;
+    padding-left: 20px;
+
+}
+#add-button,#delete-button{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 

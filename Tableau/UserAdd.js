@@ -1,6 +1,7 @@
+//When page loads take data back from the json file
 function addRowsOnload() {
     console.log("load");
-
+//there is a test if
     var ourRequest = new XMLHttpRequest();
     ourRequest.open('GET', 'DBA/userData.json', true);
     ourRequest.onload = function () {
