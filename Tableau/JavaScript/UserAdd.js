@@ -3,7 +3,7 @@ function addRowsOnload() {
     console.log("load");
 //there is a test if
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', 'DBA/userData.json', true);
+    ourRequest.open('GET', '../DBA/userData.json', true);
     ourRequest.onload = function () {
         if (ourRequest.responseText == "") {
         } else {
@@ -15,7 +15,7 @@ function addRowsOnload() {
     ourRequest.send();
 
 }
-
+//Add row in html
 function addRowsOnHTMLOnload(data) {
     var numberOfRows = data.length;
     console.log(numberOfRows);
@@ -94,7 +94,7 @@ function httpRequest() {
     console.log("in");
 
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', 'DBA/userData.json', true);
+    ourRequest.open('GET', '../DBA/userData.json', true);
     ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);

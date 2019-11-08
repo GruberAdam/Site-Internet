@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="TableauCSS.css" type="text/css" rel="stylesheet">
-    <link href="UserAdd.css" type="text/css" rel="stylesheet">
-    <script src="DBA/jquery-3.4.1.min.js"></script>
+    <link href="../CSS/TableauCSS.css" type="text/css" rel="stylesheet">
+    <link href="../CSS/UserAdd.css" type="text/css" rel="stylesheet">
+    <script src="../DBA/jquery-3.4.1.min.js"></script>
 </head>
 <body onload="addRowsOnload()">
 <div id="hamburger-button">
@@ -18,7 +18,7 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="#">Options</a>
-        <a href="../Tableau/TableauHTML.html">Participants</a>
+        <a href="#">Participants</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
@@ -49,7 +49,7 @@
 
     <div class="form-container" id="myForm">
         <h1>Add a user</h1>
-        <form method="post" class="ajax" action="DBA/UserAddData.php">
+        <form method="post" class="ajax" action="../DBA/UserAddData.php">
             <div>
                 <label for="nom">Nom</label>
                 <input type="text" id="nom" name="nom" required>
@@ -101,6 +101,6 @@
 
 
 </body>
-<script src="UserAdd.js" type="text/javascript"></script>
-<script src="TableauJavaScript.js"></script>
+<script src="../JavaScript/UserAdd.js" type="text/javascript"></script>
+<script src="../JavaScript/TableauJavaScript.js"></script>
 </html>
