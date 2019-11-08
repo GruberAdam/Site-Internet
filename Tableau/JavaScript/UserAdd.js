@@ -3,7 +3,7 @@ function addRowsOnload() {
     console.log("load");
 //there is a test if
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', '../DBA/userData.json', true);
+    ourRequest.open('GET', '../../DBA/userData.json', true);
     ourRequest.onload = function () {
         if (ourRequest.responseText == "") {
         } else {
@@ -101,7 +101,7 @@ function httpRequest() {
     console.log("in");
 
     var ourRequest = new XMLHttpRequest();
-    ourRequest.open('GET', '../DBA/userData.json', true);
+    ourRequest.open('GET', '../../DBA/userData.json', true);
     ourRequest.onload = function () {
         var ourData = JSON.parse(ourRequest.responseText);
         renderHTML(ourData);
@@ -111,7 +111,7 @@ function httpRequest() {
 
 function renderHTML(data) {
     var numberOfRows = data.length;
-    console.log("number of Rows value : " + numberOfRows)
+    console.log("number of Rows value : " + numberOfRows);
     for (var i = numberOfRows - 1; i < numberOfRows; i++) {
         console.log("value of i : " + i);
         // Get a reference to the table
