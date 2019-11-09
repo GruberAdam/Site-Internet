@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="../CSS/AcceuilCSS.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>Title</title>
@@ -26,7 +27,7 @@
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
     <div id="logo-cpnv">
-        <img src="../../Images/logocpnv.jpg" alt ="LogoDuCpnv">
+        <img src="../../Images/logocpnv.jpg" alt="LogoDuCpnv">
     </div>
     <h1>Direction Allemgane</h1>
     <div id="trait-d'arial">
@@ -36,34 +37,36 @@
         <input id="searchBar" type="text" placeholder="Search.." name="search">
         <label for="searchBar">Participants</label>
     </form>
-    <table id="user-table">
-        <tr>
-            <th>Nom</th>
-            <th>Prénom</th>
-            <th>Classe</th>
-            <th>Rôle</th>
-            <th>Maladie</th>
-            <th>Abonnement</th>
-            <th>Nationalité</th>
-        </tr>
-    </table>
+    <div class="table-responsive">
+        <table id="user-table">
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Classe</th>
+                <th>Rôle</th>
+                <th>Maladie</th>
+                <th>Abonnement</th>
+                <th>Nationalité</th>
+            </tr>
+        </table>
+    </div>
 </div>
-    <footer class='footer'>
-        <div id="footer-langues">
-            <span>FR</span>
-            <span>EN</span>
-            <span>GE</span>
-        </div>
-        <div id="footer-email">
-            <span>adam.gruber@cpnv.ch</span>
-        </div>
-        <div id="footer-tel">
-            078 683 15 95
-        </div>
-    </footer>
+<footer class='footer'>
+    <div id="footer-langues">
+        <span>FR</span>
+        <span>EN</span>
+        <span>GE</span>
+    </div>
+    <div id="footer-email">
+        <span>adam.gruber@cpnv.ch</span>
+    </div>
+    <div id="footer-tel">
+        078 683 15 95
+    </div>
+</footer>
 
 
 </body>
-    <script src="../../Tableau/JavaScript/UserAdd.js"></script>
-    <script src="../JavaScript/AcceuilJavaScript.js"></script>
+<script src="../../Tableau/JavaScript/UserAdd.js"></script>
+<script src="../JavaScript/AcceuilJavaScript.js"></script>
 </html>

@@ -74,7 +74,6 @@ $('form.ajax').on('submit', function () {
 
         data[name] = value;
     });
-
     $.ajax({
         url: url,
         type: type,
@@ -119,7 +118,6 @@ function renderHTML(data) {
 
         // Insert a row at the end of the table
         var newRow = tableRef.insertRow(-1);
-
         // Insert a cell in the row at index 0
         var newCell = newRow.insertCell(0);
         var newCell2 = newRow.insertCell(0);

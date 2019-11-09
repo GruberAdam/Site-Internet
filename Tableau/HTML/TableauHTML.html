@@ -5,6 +5,7 @@
     <title>Title</title>
     <link href="../CSS/TableauCSS.css" type="text/css" rel="stylesheet">
     <link href="../CSS/UserAdd.css" type="text/css" rel="stylesheet">
+
     <script src="../../DBA/jquery-3.4.1.min.js"></script>
 </head>
 <body onload="addRowsOnload()">
@@ -32,20 +33,22 @@
 
     <div>
         <span id="add-delete-button">
-            <input type="button" onclick="deleteRow()" value="Delete a user" id="delete-button">
+            <input type="submit" value="Delete a user" id="delete-button">
             <input type="button" onclick="openForm()" value="Add a user" id="add-button">
         </span>
-        <table id="user-table">
-            <tr>
-                <th>Nom</th>
-                <th>Prénom</th>
-                <th>Classe</th>
-                <th>Rôle</th>
-                <th>Maladie</th>
-                <th>Abonnement</th>
-                <th>Nationalité</th>
-            </tr>
-        </table>
+        <div>
+            <table id="user-table">
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Classe</th>
+                    <th>Rôle</th>
+                    <th>Maladie</th>
+                    <th>Abonnement</th>
+                    <th>Nationalité</th>
+                </tr>
+            </table>
+        </div>
     </div>
 
     <div class="form-container" id="myForm">
