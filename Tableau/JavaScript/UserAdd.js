@@ -22,8 +22,15 @@ function addRowsOnHTMLOnload(data) {
     console.log(numberOfRows);
 
     for (var i = 0; i < numberOfRows; i++) {
-
-
+        //takes the name and the firstname
+        var nameOfUserAdded = data[i].nom;
+        var firstNameOfUserAdded = data[i].prenom;
+        //Creates a link for intranet
+        var linkFirstName = document.createElement('a');
+        linkFirstName.setAttribute('href', 'http://intranet.cpnv.ch/etudiants/' + firstNameOfUserAdded + '_' + nameOfUserAdded);
+        var linkLastName = document.createElement('a');
+        linkLastName.setAttribute('href', 'http://intranet.cpnv.ch/etudiants/' + firstNameOfUserAdded + '_' + nameOfUserAdded);
+        console.log(linkFirstName);
         // Get a reference to the table
         var tableRef = document.getElementById('user-table');
 
@@ -49,13 +56,16 @@ function addRowsOnHTMLOnload(data) {
         var newText6 = document.createTextNode(data[i].prenom);
         var newText7 = document.createTextNode(data[i].nom);
 
+        linkFirstName.appendChild(newText6);
+        linkLastName.appendChild(newText7);
+
         newCell.appendChild(newText);
         newCell2.appendChild(newText2);
         newCell3.appendChild(newText3);
         newCell4.appendChild(newText4);
         newCell5.appendChild(newText5);
-        newCell6.appendChild(newText6);
-        newCell7.appendChild(newText7);
+        newCell6.appendChild(linkFirstName);
+        newCell7.appendChild(linkLastName);
     }
 }
 
@@ -111,10 +121,15 @@ function httpRequest() {
 function renderHTML(data) {
     var numberOfRows = data.length;
     console.log("number of Rows value : " + numberOfRows);
-    //Create a link for intranet
-    var a = document.createElement('a');
-    a.setAttribute('href','http://www.microsoft.com');
+
     for (var i = numberOfRows - 1; i < numberOfRows; i++) {
+        var nameOfUserAdded = data[i].nom;
+        var firstNameOfUserAdded = data[i].prenom;
+        //Create a link for intranet
+        var linkFirstName = document.createElement('a');
+        linkFirstName.setAttribute('href', 'http://intranet.cpnv.ch/etudiants/' + firstNameOfUserAdded + '_' + nameOfUserAdded);
+        var linkLastName = document.createElement('a');
+        linkLastName.setAttribute('href', 'http://intranet.cpnv.ch/etudiants/' + firstNameOfUserAdded + '_' + nameOfUserAdded);
         console.log("value of i : " + i);
         // Get a reference to the table
         var tableRef = document.getElementById('user-table');
@@ -132,7 +147,7 @@ function renderHTML(data) {
 
         // Append a text node to the cell
 
-        var newText =  document.createTextNode(data[i].nationalite);
+        var newText = document.createTextNode(data[i].nationalite);
         var newText2 = document.createTextNode(data[i].abonnement);
         var newText3 = document.createTextNode(data[i].maladie);
         var newText4 = document.createTextNode(data[i].role);
@@ -140,15 +155,15 @@ function renderHTML(data) {
         var newText6 = document.createTextNode(data[i].prenom);
         var newText7 = document.createTextNode(data[i].nom);
 
-        a.appendChild(newText7);
+        linkFirstName.appendChild(newText7);
+        linkLastName.appendChild(newText6);
 
         newCell.appendChild(newText);
         newCell2.appendChild(newText2);
         newCell3.appendChild(newText3);
         newCell4.appendChild(newText4);
         newCell5.appendChild(newText5);
-        newCell6.appendChild(newText6);
-        newCell7.appendChild(a);
-
+        newCell6.appendChild(linkFirstName);
+        newCell7.appendChild(linkLastName);
     }
 }
