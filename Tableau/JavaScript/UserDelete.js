@@ -1,5 +1,5 @@
 //Deletes a row
-$("#delete-button").click(function (e) {
+$("#delete-button").click(function () {
     data = {};
    console.log("Button delete clicked");
    $.ajax({

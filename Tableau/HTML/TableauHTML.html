@@ -40,7 +40,8 @@
     <div>
         <span id="add-delete-button">
             <input type="submit" value="Delete a user" id="delete-button">
-            <input type="button" onclick="openForm()" value="Add a user" id="add-button">
+            <input type="submit" value="Modify a user" id="modifiy-button">
+            <input type="submit" onclick="openForm()" value="Add a user" id="add-button">
         </span>
         <div>
             <table id="user-table">
@@ -81,7 +82,7 @@
             <div>
                 <label for="role">rôle</label>
                 <select name="role" size="1" id="role" required>
-                    <option>Aucun</option>
+                    <option>Etudiant</option>
                     <option>Enseignant</option>
                 </select>
             </div>
@@ -112,7 +113,8 @@
 
 
 </body>
+<script src="../JavaScript/TableauJavaScript.js" type="text/javascript"></script>
 <script src="../JavaScript/UserAdd.js" type="text/javascript"></script>
-<script src="../JavaScript/TableauJavaScript.js"></script>
 <script src="../JavaScript/UserDelete.js" type="text/javascript"></script>
+<script src="../JavaScript/UserModify.js" type="text/javascript"></script>
 </html>

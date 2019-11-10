@@ -64,7 +64,7 @@ form input {
     padding-left: 20px;
 
 }
-#add-button,#delete-button{
+#add-button,#delete-button,#modifiy-button{
     padding-left: 5px;
     border: none;
     border-radius: 10px;
