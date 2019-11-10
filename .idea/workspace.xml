@@ -10,65 +10,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tableau/JavaScript/UserModify.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBA/UserModifyData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBA/UserDeleteData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tableau/JavaScript/UserDelete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tableau/HTML/TableauHTML.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBA/userData.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tableau/CSS/UserAdd.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+            <state relative-caret-position="189">
+              <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -76,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tableau/CSS/TableauCSS.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+            <state relative-caret-position="713">
+              <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Acceuil/HTML/AcceuilHTML.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tableau/CSS/UserAdd.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="466">
+              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -123,21 +69,22 @@
         <option value="$PROJECT_DIR$/DBA/userData.json" />
         <option value="$PROJECT_DIR$/Tableau/JavaScript/UserAdd.js" />
         <option value="$PROJECT_DIR$/Login/HTML/LoginHTML.html" />
-        <option value="$PROJECT_DIR$/Tableau/CSS/UserAdd.css" />
-        <option value="$PROJECT_DIR$/Tableau/CSS/TableauCSS.css" />
-        <option value="$PROJECT_DIR$/Tableau/HTML/TableauHTML.html" />
         <option value="$PROJECT_DIR$/Tableau/JavaScript/UserDelete.js" />
         <option value="$PROJECT_DIR$/Tableau/JavaScript/UserModify.js" />
         <option value="$PROJECT_DIR$/DBA/UserDeleteData.php" />
         <option value="$PROJECT_DIR$/DBA/UserModifyData.php" />
         <option value="$PROJECT_DIR$/Acceuil/HTML/AcceuilHTML.html" />
+        <option value="$PROJECT_DIR$/Tableau/CSS/UserAdd.css" />
+        <option value="$PROJECT_DIR$/Tableau/HTML/TableauHTML.html" />
+        <option value="$PROJECT_DIR$/Tableau/CSS/TableauCSS.css" />
+        <option value="$PROJECT_DIR$/../../SiteVoyagePekin.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-126" />
-    <option name="y" value="351" />
+    <option name="x" value="-89" />
+    <option name="y" value="-10" />
     <option name="width" value="1921" />
     <option name="height" value="1100" />
   </component>
@@ -162,7 +109,18 @@
             <path>
               <item name="Site-Internet" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site-Internet" type="462c0819:PsiDirectoryNode" />
-              <item name="Acceuil" type="462c0819:PsiDirectoryNode" />
+              <item name="Tableau" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site-Internet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-Internet" type="462c0819:PsiDirectoryNode" />
+              <item name="Tableau" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site-Internet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site-Internet" type="462c0819:PsiDirectoryNode" />
+              <item name="Tableau" type="462c0819:PsiDirectoryNode" />
               <item name="HTML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -181,16 +139,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\JavaScript" />
+      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\DBA" />
+      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Tableau\JavaScript" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet" />
       <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Images" />
       <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\JavaScript" />
       <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\HTML" />
       <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\CSS" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Acceuil\DBA" />
-      <recent name="C:\Users\Akame\Desktop\Toutes les pages WEB\Site-Internet\Tableau\JavaScript" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,18 +181,18 @@
       <updated>1573231039250</updated>
       <workItem from="1573231045487" duration="11478000" />
       <workItem from="1573299479245" duration="13383000" />
-      <workItem from="1573381314584" duration="1341000" />
+      <workItem from="1573381314584" duration="4714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26202000" />
+    <option name="totallyTimeSpent" value="29575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-443" y="419" width="1921" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25692964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25900054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tableau/HTML/TableauHTML.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DBA/userData.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -370,24 +322,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Acceuil/JavaScript/AcceuilJavaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acceuil/JavaScript/AccueilJavaScript.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Acceuil/HTML/AcceuilHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7911">
+          <caret line="293" column="44" selection-start-line="293" selection-start-column="44" selection-end-line="293" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tableau/CSS/UserAdd.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        <state relative-caret-position="466">
+          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tableau/CSS/TableauCSS.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="65" column="16" lean-forward="true" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        <state relative-caret-position="713">
+          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Acceuil/HTML/AcceuilHTML.html">
+    <entry file="file://$PROJECT_DIR$/../../SiteVoyagePekin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+        <state relative-caret-position="54">
+          <caret line="1108" selection-start-line="1107" selection-end-line="1108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$EXa17788.836/ICT-120-SRD-master/SiteVoyagePekin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2187">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <caret line="81" column="14" lean-forward="true" selection-start-line="81" selection-start-column="14" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tableau/HTML/TableauHTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
         </state>
       </provider>
     </entry>
