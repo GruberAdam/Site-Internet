@@ -38,6 +38,7 @@ function addRowsOnHTMLOnload(data) {
         var newRow = tableRef.insertRow(-1);
 
         // Insert a cell in the row at index 0
+        var newCell8 = newRow.insertCell(0);
         var newCell = newRow.insertCell(0);
         var newCell2 = newRow.insertCell(0);
         var newCell3 = newRow.insertCell(0);
@@ -47,7 +48,7 @@ function addRowsOnHTMLOnload(data) {
         var newCell7 = newRow.insertCell(0);
 
         // Append a text node to the cell
-
+        var newText8 = document.createTextNode(data[i].acronym);
         var newText = document.createTextNode(data[i].nationalite);
         var newText2 = document.createTextNode(data[i].abonnement);
         var newText3 = document.createTextNode(data[i].maladie);
@@ -58,7 +59,7 @@ function addRowsOnHTMLOnload(data) {
 
         linkFirstName.appendChild(newText6);
         linkLastName.appendChild(newText7);
-
+        newCell8.appendChild(newText8);
         newCell.appendChild(newText);
         newCell2.appendChild(newText2);
         newCell3.appendChild(newText3);
@@ -68,7 +69,6 @@ function addRowsOnHTMLOnload(data) {
         newCell7.appendChild(linkLastName);
     }
 }
-
 //Send data to php server
 $('form.ajax').on('submit', function () {
     event.preventDefault();
@@ -84,6 +84,7 @@ $('form.ajax').on('submit', function () {
 
         data[name] = value;
     });
+    console.log(name);
     $.ajax({
         url: url,
         type: type,
@@ -137,6 +138,7 @@ function renderHTML(data) {
         // Insert a row at the end of the table
         var newRow = tableRef.insertRow(-1);
         // Insert a cell in the row at index 0
+        var newCell8 = newRow.insertCell(0);
         var newCell = newRow.insertCell(0);
         var newCell2 = newRow.insertCell(0);
         var newCell3 = newRow.insertCell(0);
@@ -145,8 +147,9 @@ function renderHTML(data) {
         var newCell6 = newRow.insertCell(0);
         var newCell7 = newRow.insertCell(0);
 
-        // Append a text node to the cell
 
+        // Append a text node to the cell
+        var newText8 = document.createTextNode(data[i].acronym);
         var newText = document.createTextNode(data[i].nationalite);
         var newText2 = document.createTextNode(data[i].abonnement);
         var newText3 = document.createTextNode(data[i].maladie);
@@ -155,9 +158,10 @@ function renderHTML(data) {
         var newText6 = document.createTextNode(data[i].prenom);
         var newText7 = document.createTextNode(data[i].nom);
 
+
         linkFirstName.appendChild(newText7);
         linkLastName.appendChild(newText6);
-
+        newCell8.appendChild(newText8);
         newCell.appendChild(newText);
         newCell2.appendChild(newText2);
         newCell3.appendChild(newText3);
@@ -165,5 +169,6 @@ function renderHTML(data) {
         newCell5.appendChild(newText5);
         newCell6.appendChild(linkFirstName);
         newCell7.appendChild(linkLastName);
+
     }
 }

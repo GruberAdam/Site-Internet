@@ -8,7 +8,7 @@ $("#modifiy-button").click(function () {
         data: data,
         success: function () {
             console.log("succes");
-            deleteRow();
+
         },
         error: function () {
             console.log("error");

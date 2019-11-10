@@ -69,7 +69,7 @@ html, body {
 
 #main {
     transition: margin .5s;
-    margin: auto 100px;
+    margin: auto 80px;
     z-index: 0;
     padding: 20px;
     border: black 2px solid;
@@ -114,10 +114,4 @@ html, body {
     font-size: 18px;
     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
     border-right: 1px solid #C1C3D1;
-}
-.filters{
-    display: inline-block;
-    border: black 2px solid;
-}
-#filter-nom{
 }

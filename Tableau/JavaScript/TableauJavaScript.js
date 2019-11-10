@@ -12,7 +12,7 @@ function openNav(classChange) {
         clickCounter = 1;
     } else {
         sideNav.style.width = "0";
-        main.style.margin = "0px 120px 0px 120px";
+        main.style.margin = "0px 100px 0px 100px";
         clickCounter = 0;
     }
 
